@@ -1,0 +1,43 @@
+.buttonForm {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonCloseForm {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  width: 22%;
+  height: 90vh;
+  border: 3px solid #000;
+  float: left;
+  border-radius: 6%;
+  overflow-y: auto;
+}
+
+.spaceBtwColumns {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boxPage {
+  border: 3px solid #000;
+  padding: 10px;
+  border-radius: 1%;
+}
+
+.modalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
